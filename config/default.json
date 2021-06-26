@@ -1,0 +1,23 @@
+{
+	"mqttBroker": {
+		"host": "mqtt://localhost",
+		"port": 1883
+	},
+	"logging": {
+		"topics": [
+			"jamulus/+/state/channelinfo",
+			"jamulus/+/state/client/disconnected",
+			"jamulus/+/state/registration/status",
+			"jamulus/+/state/cl/clientslist/receive",
+			"jamulus/+/state/cl/versionandos/receive",
+			"jamulus/+/state/newconnection",
+			"jamulus/+/state/recording/restart",
+			"jamulus/+/state/recording/start",
+			"jamulus/+/state/recording/stop",
+			"jamulus/+/state/recording/endthread",
+			"jamulus/+/state/response/configuration/get",
+			"jamulus/+/state/response/connections/get",
+			"jamulus/+/state/serverfull"
+		]
+	}
+}
