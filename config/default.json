@@ -3,6 +3,12 @@
 		"host": "mqtt://localhost",
 		"port": 1883
 	},
+	"jamulus": {
+		"clientId": "jamulus-logger",
+		"topicPing": "jamulus/ping",
+		"topicPingAck": "jamulus/pingack",
+		"pingDelay": 500
+	},
 	"logging": {
 		"topics": [
 			"jamulus/+/state/channelinfo",
